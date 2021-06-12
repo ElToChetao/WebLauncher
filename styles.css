@@ -6,10 +6,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 10em;
   width: 40%;
+
+  border-width: 2em;
+  border-color: grey;
 }
 
 h1 {
+  font-family: 'Courier New', Courier, monospace;
   text-align: center;
   text-transform: uppercase;
   color: #4CAF50;
