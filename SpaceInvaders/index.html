@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/functions.js"></script>
+  <title>Space Invaders!</title>
+</head>
+<body>
+  <div id="game">
+    <div id="play-area">
+      <div id="player"></div>
+      <div id="bullet-folder"></div>
+      <div id="enemies-folder"></div>
+      <div id="bricks-folder"></div>
+    </div>
+    <div id="HUD">
+      <div id="lifes-folder">
+        <div class="life"></div>
+        <div class="life"></div>
+        <div class="life"></div>
+      </div>
+      <div id="enter-text"><p>PRESS ENTER TO START</p></div>
+      <p id="score-text">SCORE: </p>
+      <button id="pause-button" onclick="pauseGame()">Pause</button>
+      <div id="game-over-text"></div>
+      <div id="pause-image"></div>
+    </div>
+  </div>
+</body>
+</html>

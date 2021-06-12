@@ -1,0 +1,16 @@
+/* @font-face{
+  font-family: 'Text';
+  src: url('../assets/fonts/phaserbankb.ttf');
+} */
+
+html,
+body,
+#game-container {
+  margin: 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#game-container > canvas {
+  border-radius: 30px;
+}
