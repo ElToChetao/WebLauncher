@@ -1,5 +1,5 @@
 body{
-  background-color: whitesmoke;
+  background-color: rgb(43, 43, 43);
 }
 
 img {
@@ -14,5 +14,5 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
   text-transform: uppercase;
-  color: #4CAF50;
+  color: whitesmoke;
 }
