@@ -19,6 +19,8 @@ h1 {
 
 #game-box{
   background-color: white;
-  width: 50%;
-  height: 50%;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
