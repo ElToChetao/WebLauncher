@@ -1,6 +1,12 @@
-// window.addEventListener("load", loadGame);
+let iframe;
 
-// function loadGame(){
-//   console.log(document.getElementById("game-box"));
-//   document.getElementById("game-box").innerHTML='<object type="type/html" data="SpaceInvaders/index.html" ></object>';
-// }
+window.addEventListener("load", onload)
+function loadGame(game)
+{
+  iframe.src = game;
+}
+
+function onLoad()
+{
+  iframe = document.getElementById("game-box");
+}
