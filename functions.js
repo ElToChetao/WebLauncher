@@ -1,4 +1,4 @@
-window.onload = loadGame();
+window.addEventListener("load", loadGame);
 
 function loadGame(){
   console.log(document.getElementById("game-box"));
