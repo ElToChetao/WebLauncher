@@ -2,14 +2,6 @@ body{
   background-color: rgb(43, 43, 43);
 }
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 1em;
-  width: 40%;
-}
-
 h1 {
   font-family: 'Courier New', Courier, monospace;
   text-align: center;
