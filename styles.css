@@ -16,3 +16,9 @@ h1 {
   text-transform: uppercase;
   color: whitesmoke;
 }
+
+#game-box{
+  background-color: white;
+  width: 50%;
+  height: 50%;
+}
