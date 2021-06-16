@@ -1,12 +1,9 @@
-let iframe;
-
-window.addEventListener("load", onload)
 function loadGame(game)
 {
-  iframe.src = game;
+  window.parent.postMessage({message: game}, origin);
 }
 
 function onLoad()
 {
-  iframe = document.getElementById("game-box");
+
 }
